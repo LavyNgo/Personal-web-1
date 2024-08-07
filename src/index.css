@@ -1,0 +1,40 @@
+:root {
+    --light-color: #fffef9;
+    --dark-color: #122620;
+    --blue-color: #00aaff;
+    --blue-hover-color: #0077cc;
+    --span-text-color-dark: #ff6347;
+    --span-text-color-light: blue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body, html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    background: var(--light-color);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.container.dark {
+    background: var(--dark-color);
+}
+

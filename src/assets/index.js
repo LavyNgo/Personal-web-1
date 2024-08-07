@@ -1,0 +1,50 @@
+// images in animal folder
+export { default as animal1 } from './animal/animal1.jpg'
+export { default as animal2 } from './animal/animal2.jpg'
+export { default as animal3 } from './animal/animal3.jpg'
+export { default as animal4 } from './animal/animal4.jpg'
+export { default as animal5 } from './animal/animal5.jpg'
+export { default as animal6 } from './animal/animal6.jpg'
+export { default as animal7 } from './animal/animal7.jpg'
+export { default as animal8 } from './animal/animal8.jpg'
+export { default as animal9 } from './animal/animal9.jpg'
+export { default as animal10 } from './animal/animal10.jpg'
+
+// images in casual folder
+export { default as branson1 } from './casual/branson1.jpg'
+export { default as branson2 } from './casual/branson2.jpg'
+export { default as branson3 } from './casual/branson3.jpg'
+export { default as branson4 } from './casual/branson4.jpg'
+export { default as branson5 } from './casual/branson5.jpg'
+export { default as branson6 } from './casual/branson6.jpg'
+export { default as branson7 } from './casual/branson7.jpg'
+export { default as branson8 } from './casual/branson8.jpg'
+export { default as branson9 } from './casual/branson9.jpg'
+export { default as cas1 } from './casual/cas1.jpg'
+export { default as cas2 } from './casual/cas2.jpg'
+export { default as cas3 } from './casual/cas3.jpg'
+export { default as cas4 } from './casual/cas4.jpg'
+export { default as sky1 } from './casual/sky1.jpg'
+
+// images in festival folder
+export { default as fes1 } from './festival/fes1.jpg'
+export { default as fes2 } from './festival/fes2.jpg'
+export { default as fes3 } from './festival/fes3.jpg'
+export { default as fes4 } from './festival/fes4.jpg'
+
+// images in lameo folder
+export { default as lameo1 } from './lameo/lameo1.jpg'
+export { default as lameo2 } from './lameo/lameo2.jpg'
+export { default as lameo3 } from './lameo/lameo3.jpg'
+export { default as lameo4 } from './lameo/lameo4.jpg'
+export { default as lameo5 } from './lameo/lameo5.jpg'
+export { default as lameo6 } from './lameo/lameo6.jpg'
+export { default as lameo7 } from './lameo/lameo7.jpg'
+export { default as lameo8 } from './lameo/lameo8.jpg'
+export { default as lameo9 } from './lameo/lameo9.jpg'
+
+// images in background folder
+// export { default as background1 } from './background/background1.jpg'
+// export { default as background2 } from './background/background2.jpg'
+// export { default as background3 } from './background/background3.jpg'
+// export { default as background4 } from './background/background4.jpg'
