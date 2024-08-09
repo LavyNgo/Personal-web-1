@@ -52,13 +52,16 @@
     margin: 0 20px;
     text-decoration: none;
     color: var(--dark-color);
-    font-weight: 700;
-    font-size: 24px;
     transition: transform 0.4s, color 0.4s;
 }
 
+.social-icons a p {
+    font-weight: 700;
+    font-size: 24px;
+}
+
 .social-icons a:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
     color: var(--blue-hover-color);
 }
 
@@ -100,5 +103,19 @@
 .dark .social-icons a:hover {
     transform: scale(1.2);
     color: var(--blue-hover-color);
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1300px) {
+    .social-icons a {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .social-icons a p {
+        font-size: 20px;
+    }
 }
 
