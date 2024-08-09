@@ -66,11 +66,14 @@ p {
     margin: 0 10px;
     color: var(--dark-color);
     font-size: 35px;
-    transition: color 0.4s, transform 0.4s;
 }
 
-.social-links a:hover {
-    transform: scale(1.2);
+.social-links a svg {
+    transition: transform 0.4s;
+}
+
+.social-links a svg:hover {
+    transform: scale(1.3);
     color: var(--blue-hover-color);
 }
 
@@ -159,11 +162,6 @@ p {
 
 .dark .social-links a {
     color: var(--light-color);
-}
-
-.dark .social-links a:hover {
-    color: var(--blue-hover-color);
-    transform: scale(1.2);
 }
 
 .dark .img-wrapper img {

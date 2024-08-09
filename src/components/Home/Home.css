@@ -44,6 +44,8 @@
 
 .social-icons {
     margin-top: 30px;
+    display: flex;
+    flex-direction: row;
 }
 
 .social-icons a {
@@ -52,11 +54,12 @@
     color: var(--dark-color);
     font-weight: 700;
     font-size: 24px;
-    transition: color 0.3s;
+    transition: transform 0.4s, color 0.4s;
 }
 
 .social-icons a:hover {
-    color: #17634f;
+    transform: scale(1.2);
+    color: var(--blue-hover-color);
 }
 
 @keyframes fadeIn {
@@ -95,6 +98,7 @@
 }
 
 .dark .social-icons a:hover {
-    color: #ddd;
+    transform: scale(1.2);
+    color: var(--blue-hover-color);
 }
 
