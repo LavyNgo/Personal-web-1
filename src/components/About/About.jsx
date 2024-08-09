@@ -13,23 +13,27 @@ const About = () => {
     return (
         <section className="about-container">
             <div className="content">
-                <img src={hero} alt="Your Name" className="photo" />
-                <h1>Lavy Ngo</h1>
-                <p>
-                    Welcome to my photography world! I am a passionate photographer with a love for capturing the beauty of everyday moments. Whether it's a stunning landscape, a candid portrait, or an intricate detail, I strive to tell a story through my lens.
-                </p>
-                <br />
-                <p>
-                    My journey in photography began several years ago, and it has been a fulfilling adventure ever since. I believe that each photograph holds a unique narrative, and I am dedicated to sharing these stories with you.
-                </p>
-
-                <div className="social-links">
-                    <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
-                    <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
-                    <a href="https://www.twitter.com/yourprofile" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
-                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
-                    <a href="mailto:your-email@example.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+                <div className="hero">
+                    <img src={hero} alt="Your Name" className="photo" />
+                    <h1>Lavy Ngo</h1>
                 </div>
+                <div className="hero-description">
+                    <p>
+                        Welcome to my photography world! I am a passionate photographer with a love for capturing the beauty of everyday moments. Whether it's a stunning landscape, a candid portrait, or an intricate detail, I strive to tell a story through my lens.
+                    </p>
+                    <br />
+                    <p>
+                        My journey in photography began several years ago, and it has been a fulfilling adventure ever since. I believe that each photograph holds a unique narrative, and I am dedicated to sharing these stories with you.
+                    </p>
+                    <div className="social-links">
+                        <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+                        <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
+                        <a href="https://www.twitter.com/yourprofile" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
+                        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                        <a href="mailto:your-email@example.com"><FontAwesomeIcon icon={faEnvelope} /></a>
+                    </div>
+                </div>
+
             </div>
             <div className="gallery">
                 <h2>My favorites...</h2>

@@ -12,8 +12,18 @@
 }
 
 .content {
-    max-width: 750px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
     animation: slideUp 1s ease-in-out;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 h1 {
@@ -31,8 +41,8 @@ p {
 }
 
 .photo {
-    width: 220px;
-    height: 220px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     margin-bottom: 20px;
     object-fit: cover;
@@ -163,5 +173,16 @@ p {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1300px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+  
 
 
