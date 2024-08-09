@@ -14,7 +14,8 @@
 .content {
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
     max-width: 800px;
     animation: slideUp 1s ease-in-out;
 }
