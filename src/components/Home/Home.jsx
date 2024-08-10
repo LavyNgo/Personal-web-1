@@ -10,6 +10,7 @@ const Home = () => {
         navigate(path);
     }
 
+
     return (
         <section className="home-container">
             <div className="title">Welcome to My Photography</div>
