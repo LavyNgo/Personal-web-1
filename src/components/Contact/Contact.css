@@ -46,6 +46,11 @@
     padding: 40px;
 }
 
+.contact-form form {
+    width: 100%;
+    text-align: center;
+}
+
 .contact-form input,
 .contact-form textarea {
     background: none;
@@ -70,6 +75,10 @@
 
 .contact-form button:hover {
     background-color: var(--blue-hover-color);
+}
+
+.message p {
+    padding: 40px 10px;
 }
 
 
